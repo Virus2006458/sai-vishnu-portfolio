@@ -35,10 +35,15 @@ const About = () => {
             <div className="text-[150px] md:text-[200px] font-display font-black text-white/5 absolute select-none group-hover:text-accent/10 transition-colors duration-500">SVK</div>
             
             <motion.div 
-              whileHover={{ rotate: [0, -2, 2, 0], scale: 1.05 }}
-              className="z-10 bg-accent p-6 rounded-3xl shadow-[0_0_30px_rgba(0,245,212,0.4)]"
+              whileHover={{ scale: 1.05 }}
+              className="z-10 w-[250px] h-[250px] md:w-[350px] md:h-[350px] rounded-3xl overflow-hidden border-4 border-accent shadow-[0_0_30px_rgba(0,245,212,0.4)] relative"
             >
-              <h3 className="text-black font-display font-black text-6xl md:text-8xl tracking-tighter">SV.</h3>
+              <img 
+                src="/profile.jpeg" 
+                alt="Sai Vishnu Kandur C" 
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+              />
+              <div className="absolute inset-0 bg-accent/10 mix-blend-overlay pointer-events-none" />
             </motion.div>
 
             {/* Glowing Accent Lines */}
