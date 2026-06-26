@@ -30,7 +30,7 @@ const Resume = () => {
            For a detailed look at my technical expertise, project history, and academic milestones, feel free to grab my resume.
         </p>
         
-        <a href="/resume.pdf" download="Sai_Vishnu_Kandur_C_Resume.pdf">
+        <a href="/SAI VISHNU KANDUR C RESUME.pdf" download="Sai_Vishnu_Kandur_C_Resume.pdf">
           <motion.button 
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(0, 245, 212, 0.4)' }}
             whileTap={{ scale: 0.95 }}

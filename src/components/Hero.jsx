@@ -6,7 +6,6 @@ import { Download, ArrowRight } from 'lucide-react';
 const subtitles = [
   "Cloud Computing Student",
   "UI/UX Designer",
-  "Full Stack Developer",
   "Tech Club President"
 ];
 
@@ -28,20 +27,20 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:40px_40px]" />
       </div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-center md:text-left md:max-w-4xl w-full"
       >
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           className="text-accent uppercase tracking-widest font-medium mb-4 text-sm md:text-base animate-pulse"
         >
           Welcome to my digital space
         </motion.p>
-        
+
         <h1 className="text-5xl md:text-7xl lg:text-6xl font-display font-black leading-tight mb-6">
           <span className="text-softWhite">Sai Vishnu</span> <br />
           <span className="text-accent">Kandur C</span>
@@ -62,7 +61,7 @@ const Hero = () => {
           </AnimatePresence>
         </div>
 
-        <motion.p 
+        <motion.p
           className="text-lg md:text-xl text-softWhite/60 max-w-2xl leading-relaxed mb-10"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -81,7 +80,7 @@ const Hero = () => {
             </Link>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <a href="/resume.pdf" download="Sai_Vishnu_Kandur_C_Resume.pdf">
+            <a href="/SAI VISHNU KANDUR C RESUME.pdf" download="Sai_Vishnu_Kandur_C_Resume.pdf">
               <button className="btn-secondary flex items-center gap-2 w-full">
                 Download Resume
                 <Download size={20} />
@@ -92,13 +91,13 @@ const Hero = () => {
       </motion.div>
 
       {/* Floating Particles or Scroll Indicator */}
-      <motion.div 
+      <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2"
       >
         <div className="w-6 h-10 border-2 border-accent/30 rounded-full flex justify-center p-1">
-          <motion.div 
+          <motion.div
             animate={{ height: [4, 12, 4], opacity: [0.3, 1, 0.3] }}
             transition={{ repeat: Infinity, duration: 1.5 }}
             className="w-1 bg-accent rounded-full"
